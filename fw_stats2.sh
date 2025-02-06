@@ -2,7 +2,7 @@
 
 LOGFILE="/var/log/messages"
 STATEFILE="/var/lib/fw_drop_stats.db"
-OUTPUT_FILE="/var/www/localhost/htdocs/fw_stats.html"
+OUTPUT_FILE="/var/www/html/index.html"
 
 [ -f $STATEFILE ] || touch $STATEFILE
 
